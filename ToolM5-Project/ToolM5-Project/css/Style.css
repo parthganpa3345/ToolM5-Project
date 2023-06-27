@@ -1,0 +1,179 @@
+* {
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ :root {
+    --popati: #a8d741;
+    --hem: black;
+    --dev: white;
+}
+
+a {
+    color: var(--hem);
+}
+
+.main {
+    background-color: #f9f9f9;
+}
+
+.get {
+    background-color: var(--popati);
+    transition: .5s;
+    /* transform: scale(.9); */
+}
+
+.right {
+    color: var(--popati);
+}
+
+.get:hover {
+    transform: rotate(4deg) scale(1.07);
+    background-color: var(--dev);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+
+.get:hover .right {
+    color: var(--dev);
+}
+
+.content {
+    background-color: var(--popati);
+}
+
+.gete {
+    background-color: var(--hem);
+    border: 2px solid var(--dev);
+    color: var(--dev);
+    transition: .5s;
+}
+
+.gete:hover {
+    transform: rotate(4deg) scale(1.07);
+    background-color: var(--dev);
+    color: var(--hem);
+    border: 2px solid var(--hem);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+
+.display-2 {
+    color: var(--popati);
+}
+
+.card1 {
+    transition: .5s;
+}
+
+.card1:hover {
+    transform: rotate(-4deg) scale(1.001);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+
+.but_hover {
+    transition: .5s;
+}
+
+.but_hover:hover {
+    background-color: var(--popati);
+    transform: rotate(4deg) scale(1.07);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+    filter: blur(0.5px);
+}
+
+.but1_hover {
+    background-color: var(--popati);
+    transition: .5s;
+}
+
+.but1_hover:hover {
+    background-color: var(--dev);
+    transform: rotate(4deg) scale(1.07);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+    filter: blur(0.5px);
+}
+
+.but1_hover:hover .right {
+    color: var(--dev);
+}
+
+.gea {
+    padding: 160px 0px;
+}
+
+.c1 {
+    background-color: var(--popati);
+}
+
+.c2 {
+    background-color: #f8f9fa;
+}
+
+.under {
+    height: 2px;
+    width: 0%;
+    background-color: black;
+    top: 110%;
+    transition: .2s;
+}
+
+.text1:hover .under {
+    width: 100%;
+}
+
+.our {
+    padding: 130px 0;
+}
+
+.our1 {
+    padding-bottom: 130px;
+}
+
+.our2 {
+    padding: 80px 0;
+}
+
+.bd {
+    background-color: #eeee;
+}
+
+.card2 {
+    transition: .3s;
+}
+
+.card2:hover {
+    transform: rotate(-1deg) scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+.play {
+    top: 45%;
+    left: 45%;
+}
+
+.our3 {
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.card3 {
+    transition: .3 s;
+}
+
+.card3:hover {
+    transform: rotate(-1deg) scale(1.01);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .1);
+}
+
+input {
+    outline: none;
+}
+
+textarea {
+    outline: none;
+}
+
+.our4 {
+    padding-bottom: 80px;
+}
